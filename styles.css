@@ -50,6 +50,15 @@ body {
   text-decoration: none;
 }
 
+.submenu {
+  display: none;
+  padding-left: 20px;
+}
+
+.submenu li {
+  margin-bottom: 5px;
+}
+
 #mensaje {
   color: white;
   font-family: Arial, sans-serif;
