@@ -1,0 +1,16 @@
+body {
+  background-color: #e6e6fa; /* Lila */
+}
+
+.card {
+  margin-bottom: 20px;
+  background-color: #fff; /* Fondo blanco para resaltar las tarjetas */
+}
+
+.card-title {
+  color: #6a5acd; /* Lila oscuro para el título de la tarjeta */
+}
+
+.card-text {
+    font-weight: 500;
+}

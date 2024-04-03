@@ -1,0 +1,55 @@
+body {
+  background-color: #add8e6; /* Azul claro */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+#menu {
+    display: none;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 250px; /* Ancho del menú */
+    background-color: #333;
+    padding: 20px; /* Añadir espacio interno */
+    border-radius: 0 0 0 5px; /* Redondear solo la esquina superior derecha */
+    z-index: 998; /* Asegurar que esté detrás del ícono de hamburguesa */
+  }
+  
+  #menu-toggle {
+    display: block;
+    position: fixed;
+    color: #fff;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+    z-index: 999;
+    transform: translateY(-50%); /* Centrar verticalmente */
+  }
+  
+#menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#menu ul li {
+  margin-bottom: 10px;
+}
+
+#menu ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+#mensaje {
+  color: white;
+  font-family: Arial, sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
